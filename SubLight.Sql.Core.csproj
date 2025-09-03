@@ -1,13 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <AssemblyName>SubLight.Sql.Core</AssemblyName>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.Common" Version="4.3.0" />
+    <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
+  </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SubLight.Abstractions\SubLight.Abstractions.csproj" />
-    <PackageReference Include="System.Data.Common" Version="8.0.0" />
+    <ProjectReference Include="..\SubLight.Abstractions\SubLight.Abstraction.csproj" />
   </ItemGroup>
 </Project>
