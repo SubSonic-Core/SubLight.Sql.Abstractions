@@ -4,6 +4,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <AssemblyName>SubLight.Sql.Core</AssemblyName>
+    <RootNamespace>SubLight</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="System.Data.Common" Version="4.3.0" />
