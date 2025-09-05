@@ -1,6 +1,7 @@
-﻿using System.Data.Common;
+﻿using SubLight.Query;
+using System.Data.Common;
 
-namespace SubLight.Query
+namespace SubLight.Sql.Query
 {
     public class SqlQueryResult(string sql, IReadOnlyList<DbParameter> parameters)
         : IQueryResult

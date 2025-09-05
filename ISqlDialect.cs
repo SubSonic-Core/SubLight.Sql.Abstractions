@@ -1,4 +1,4 @@
-﻿namespace SubLight
+﻿namespace SubLight.Sql
 {
     public interface ISqlDialect
     {

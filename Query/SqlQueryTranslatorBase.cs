@@ -1,6 +1,8 @@
-﻿using System.Linq.Expressions;
+﻿using SubLight.Query;
+using SubLight.Sql;
+using System.Linq.Expressions;
 
-namespace SubLight.Query
+namespace SubLight.Sql.Query
 {
     public abstract class SqlQueryTranslatorBase
         : IQueryTranslator<SqlQueryResult>
